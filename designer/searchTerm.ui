@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>539</width>
+    <height>39</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>539</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QComboBox" name="fieldType">
+      <item>
+       <property name="text">
+        <string>No.</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Source</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Destination</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Protocol</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Info</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="searchType">
+      <item>
+       <property name="text">
+        <string>contains</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>is</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>is not</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>is less than</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>is greater than</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="searchText">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addSearch">
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="removeSearch">
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

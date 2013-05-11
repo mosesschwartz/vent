@@ -1,0 +1,20 @@
+VISUAL EXPLORATION OF NETWORK TRAFFIC (VENT)
+README
+
+=== COMPATIBILITY ===
+Mac OS X v10.6.2
+No other systems have been tested.
+
+=== DEPENDENCIES ===
+VENT depends on having Wireshark installed and in PATH. 
+
+=== RUNNING THE PROGRAM ===
+To start the program:
+	python main.py
+in the vent directory.
+
+=== USING THE PROGRAM ===
+1) If you try to break this program, you will succeed. Best to not try.
+2) The only currently-supported PCAP file is hard-coded in. Attempting to load another may not work right now.
+3) When you start the program, the layout will be virtually unusable. You will need to increase the size of the window, then resize the internal panes so everything is visible.
+4) Add or remove search terms in the right pane. Click Search to create a new histogram showing your terms.
